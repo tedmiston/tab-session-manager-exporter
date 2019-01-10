@@ -4,6 +4,12 @@ The [Tab Session Manager](https://github.com/sienori/Tab-Session-Manager) export
 
 To solve this, we parse out only the essential properties and use those to build a much simpler YAML output that is easily human readable.
 
+## Setup
+
+```
+pipenv install
+```
+
 ## Quickstart
 
 Export your sessions from:
@@ -21,5 +27,5 @@ and save them as `sessions.json`.
 Then run:
 
 ```
-python app.py
+pipenv run python app.py
 ```
